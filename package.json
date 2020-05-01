@@ -44,7 +44,7 @@
     "validate-changelog": "ts-node script/validate-changelog.ts",
     "check-modified": "stop-build",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "yarn run snyk-protect"
   },
   "author": {
     "name": "GitHub, Inc.",
@@ -120,7 +120,7 @@
     "webpack-merge": "^4.1.2",
     "xml2js": "^0.4.16",
     "xvfb-maybe": "^0.2.1",
-    "snyk": "^1.217.3"
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/byline": "^4.2.31",
