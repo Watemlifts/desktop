@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.22.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -799,3 +799,6 @@ patch:
         patched: '2019-08-24T18:13:16.126Z'
     - spectron > electron-chromedriver > electron-download > nugget > request > stringstream:
         patched: '2019-08-24T18:13:16.126Z'
+  SNYK-JS-LODASH-567746:
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2022-01-21T18:11:46.219Z'
