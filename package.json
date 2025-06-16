@@ -65,7 +65,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "aws-sdk": "^2.178.0",
     "babel-core": "^6.26.3",
-    "babel-jest": "^23.4.2",
+    "babel-jest": "^30.0.0",
     "babel-minify-webpack-plugin": "^0.3.1",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "chalk": "^2.2.0",
@@ -86,14 +86,14 @@
     "fs-extra": "^6.0.0",
     "glob": "^7.1.2",
     "html-webpack-plugin": "^3.2.0",
-    "jest": "^24.0.0",
+    "jest": "^30.0.0",
     "jest-junit": "^6.2.0",
     "jest-localstorage-mock": "^2.3.0",
     "json-pretty": "^0.0.1",
     "klaw-sync": "^3.0.0",
     "legal-eagle": "0.16.0",
     "mini-css-extract-plugin": "^0.4.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^9.0.0",
     "octicons": "^8.2.0",
     "parallel-webpack": "^2.3.0",
     "prettier": "1.16.0",
@@ -120,7 +120,7 @@
     "webpack-merge": "^4.1.2",
     "xml2js": "^0.4.16",
     "xvfb-maybe": "^0.2.1",
-    "snyk": "^1.217.3"
+    "snyk": "^1.996.0"
   },
   "devDependencies": {
     "@types/byline": "^4.2.31",
@@ -170,7 +170,7 @@
     "electron": "11.5.0",
     "electron-builder": "20.28.4",
     "electron-packager": "^13.1.0",
-    "electron-winstaller": "2.5.2"
+    "electron-winstaller": "5.1.0"
   },
   "resolutions": {
     "**/@types/node": "10.1.4"
